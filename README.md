@@ -52,6 +52,8 @@ But I have to agree that 'One of the main advantages of Django, is that it has a
 
 ### b. Description on how the pieces interact
 
+![](./_images/arch.png)
+
 ### c. Suggestions on if this were to be moved from a demo to a real system what considerations would you make?
 
 if we are in the real system with more and more users.
