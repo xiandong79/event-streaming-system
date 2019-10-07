@@ -1,5 +1,5 @@
 # event-streaming-system
-A simple event streaming system, a pub/sub step using Redis, storage using Mysql, Web framework using flask.
+A simple event streaming system, a pub/sub step using **Redis**, storage using **MySQL**, Web framework using **flask**.
 
 ## Background
 
@@ -42,12 +42,13 @@ Wechat Pay, a financial organization which supports 80 million active users ever
     
 - flask for web application framework
 
+flask as a lightwight web application framework is suitable for this small project with only a few APIs.
 
     - simplicity, a very quick start
     - flexibility, add new modules if you want
     - fine-grained control
 
-But I have to say that 'One of the main advantages of Django, is that it has a huge active developer community. This means that if you need help, or when it’s time to scale your app, you will have an easier job finding other developers to join in and start contributing, plus a wealth of useful content already in the public domain. '
+But I have to agree that 'One of the main advantages of Django, is that it has a huge active developer community. This means that if you need help, or when it’s time to scale your app, you will have an easier job finding other developers to join in and start contributing, plus a wealth of useful content already in the public domain. '
 
 ### b. Description on how the pieces interact
 
@@ -102,6 +103,8 @@ python sub_and_store.py
 10/06/2019 06:37:57 PM INFO pub_transactions: 1,-27269658564,1570358277.493473
 10/06/2019 06:37:59 PM INFO pub_transactions: 3,41603904384,1570358279.49744
 ``` 
+
+![](./_images/database.jpg)
 
 ### 4. launch flask APP for RESTful API
 
